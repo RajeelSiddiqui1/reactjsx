@@ -8,7 +8,7 @@ function AllPosts() {
 
     useEffect (()=>{},[])
     appwriteService.getPosts([]).then((posts) => {
-        if(post){
+        if(posts){
             setPosts(posts.documents)
         }
     })

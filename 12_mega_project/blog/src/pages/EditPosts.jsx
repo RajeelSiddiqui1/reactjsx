@@ -30,4 +30,4 @@ function EditPosts() {
   ): null
 }
 
-export default EditPosts
+export default EditPosts;
